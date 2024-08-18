@@ -45,7 +45,7 @@ async function fetchData() {
     var id = getIdFromUrl(productUrl);
 
     if (!id) {
-        displayError("Neplatný kód produktu nebo odkaz.");
+        displayError("Neplatný odkaz.");
         return;
     }
 
